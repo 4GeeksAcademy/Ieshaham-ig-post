@@ -1,7 +1,9 @@
-.body{
+body { 
     background-color: black;
-    margin: 0;
-}
+    margin: 0%;
+    border:410px;
+
+} 
 
 .post{
     width: 400px;
@@ -9,26 +11,72 @@
     margin: 0 auto;
     background-color: white;
     color:black;
-
 }
+
 .header{
     padding: 5px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
+    float: inline-start;
+   
 }
+  
+
  .name{
     display: flex;
     gap: 10px;
+   
  }
     
 
 img{
     width: 400px;
     height: 300px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.captions {
+    width: 400px;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+}
 
+.flex-container {
+display: flex;
+justify-content: space-between;
+height: 10px;
+margin-top: 10px;
+padding: 5px;
+}
 
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 400px; 
+    padding-right: 5px;
+}
+
+#flex-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    height: 25px;
+    padding: 5px;
+}
+
+.options{
+    display:flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: 30px;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.left {
+    margin-right: 3px;
+}
